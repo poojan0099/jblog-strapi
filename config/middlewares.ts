@@ -14,16 +14,17 @@ export default [
             },
         },
     },
+    'strapi::poweredBy',
     {
         name: 'strapi::cors',
         config: {
             origin: ['*'],
+            headers: "*",
             methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
-            headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
             keepHeaderOnError: true,
+            enabled: true
         },
     },
-    'strapi::poweredBy',
     'strapi::logger',
     'strapi::query',
     'strapi::body',
