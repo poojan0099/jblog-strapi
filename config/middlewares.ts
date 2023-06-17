@@ -22,7 +22,6 @@ export default [
             headers: "*",
             methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
             keepHeaderOnError: true,
-            enabled: true
         },
     },
     'strapi::logger',
