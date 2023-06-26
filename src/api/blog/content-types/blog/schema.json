@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -24,7 +24,7 @@
       },
       "type": "string"
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -50,7 +50,7 @@
         }
       }
     },
-    "English": {
+    "english": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -71,7 +71,7 @@
         }
       }
     },
-    "Hindi": {
+    "hindi": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -92,7 +92,7 @@
         }
       }
     },
-    "Gujarati": {
+    "gujarati": {
       "pluginOptions": {
         "i18n": {
           "localized": true
