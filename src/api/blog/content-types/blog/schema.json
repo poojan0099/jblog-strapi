@@ -24,14 +24,6 @@
       },
       "type": "string"
     },
-    "Content": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext"
-    },
     "Image": {
       "type": "media",
       "multiple": false,
@@ -58,7 +50,7 @@
         }
       }
     },
-    "text1": {
+    "English": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -79,7 +71,7 @@
         }
       }
     },
-    "text2": {
+    "Hindi": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -88,18 +80,19 @@
       "type": "text"
     },
     "image3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "text3": {
+    "Gujarati": {
       "pluginOptions": {
         "i18n": {
           "localized": true
